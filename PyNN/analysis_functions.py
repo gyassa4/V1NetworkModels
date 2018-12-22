@@ -166,3 +166,4 @@ def conductance_analysis(population, segment, orientation_space, population_orie
         F1[index] = np.max(np.array(g_exc[:, neuron]) - DC[index])
 
     return DC, F1
+"end"
